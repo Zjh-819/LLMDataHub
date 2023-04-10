@@ -26,11 +26,12 @@ A guide for the most frequently used datasets for LLM pretrain/instruction finet
 
 We consider row items as subject.
 
-|         | OIG      | hh-rlhf  | xP3     |
-|---------|----------|----------|---------|
-| OIG     |          | contains | overlap |
-| hh-rlhf | part of  |          |         |
-| xP3     | overlap  |          |         |
+|                  | OIG     | hh-rlhf  | xP3     | natural instruct |
+|------------------|---------|----------|---------|------------------|
+| OIG              |         | contains | overlap | overlap          |
+| hh-rlhf          | part of |          |         |                  |
+| xP3              | overlap |          |         | overlap          |
+| natural instruct | overlap |          | overlap |                  |
 
 ## Private Datasets
 | Dataset name          | Used by            | Used for | Language                              | Size  | Description                                                                                     |
