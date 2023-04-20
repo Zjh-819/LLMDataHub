@@ -62,14 +62,14 @@ We consider row items as subject.
 
 ## Domain-specific Datasets
 
-| Dataset name                                                           | Used by | Used for                 | Language | Size         | Description                                           |
-|------------------------------------------------------------------------|---------|--------------------------|----------|--------------|-------------------------------------------------------|
-| [finance-alpaca](https://huggingface.co/datasets/OpenAssistant/oasst1) | /       | IFT     | English  | 1.3K entries | An Alpaca-style dataset but focus on financial topics |
+| Dataset name                                                             | Used by | Used for                  | Language | Size         | Description                                           |
+|--------------------------------------------------------------------------|---------|-------------------  -------|----------|--------------|-------------------------------------------------------|
+| [finance-alpaca](https://huggingface.co/datasets/gbharti/finance-alpaca) | /       | IFT       | English  | 1.3K entries | An Alpaca-style dataset but focus on financial topics |
 
 ## Private Datasets
 | Dataset name          | Used by            | Used for            | Language                              | Size        | Description                                                                                     |
 |-----------------------|--------------------|---------------------|---------------------------------------|-------------|-------------------------------------------------------------------------------------------------|
 | ShareGPT-70K          | Vicuna             | Instruction fintune | /                                     | 70K entries | Data shared by user on [ShareGPT](https://sharegpt.com/)                                        |
-| WebText(Reddit links) | GPT-2              | PT            | English                               | /           | Data crawled from Reddit and filtered for GPT-2 pretraining.                                    |
-| MassiveText           | Gopher, Chinchilla | PT            | 99% English, 1% other(including code) |             |                                                                                                 |
-| WuDao(悟道) Corpora     | GLM                | PT            | Chinese                               | 200GB       | A large scale Chinese corpus, Possible component originally open-sourced but not available now. |
+| WebText(Reddit links) | GPT-2              | PT                  | English                               | /           | Data crawled from Reddit and filtered for GPT-2 pretraining.                                    |
+| MassiveText           | Gopher, Chinchilla | PT                  | 99% English, 1% other(including code) |             |                                                                                                 |
+| WuDao(悟道) Corpora     | GLM                | PT                  | Chinese                               | 200GB       | A large scale Chinese corpus, Possible component originally open-sourced but not available now. |
