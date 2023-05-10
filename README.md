@@ -71,9 +71,9 @@ We consider row items as subject.
 
 ## Domain-specific Datasets
 
-| Dataset name                                                             | Used by | Used for                   | Language | Size         | Description                                           |
-|--------------------------------------------------------------------------|---------|----------------------------|----------|--------------|-------------------------------------------------------|
-| [finance-alpaca](https://huggingface.co/datasets/gbharti/finance-alpaca) | /       | IFT                        | English  | 1.3K entries | An Alpaca-style dataset but focus on financial topics |
+| Dataset name                                                             | Used by | Used for | Language | Size         | Description                                           |
+|--------------------------------------------------------------------------|---------|----------|----------|--------------|-------------------------------------------------------|
+| [finance-alpaca](https://huggingface.co/datasets/gbharti/finance-alpaca) | /       | IFT      | English  | 1.3K entries | An Alpaca-style dataset but focus on financial topics |
 
 ## Private Datasets
 | Dataset name          | Used by            | Used for            | Language                              | Size        | Description                                                                                     |
