@@ -6,6 +6,9 @@ Large language models (LLMs), such as OpenAI's GPT series, Google's Bard, and Ba
 
 Training a chatbot LLM that can follow human instruction effectively requires access to high-quality datasets that cover a range of conversation domains and styles. In this repository, we provide a curated collection of datasets specifically designed for chatbot training, including links, size, language, usage, and a brief description of each dataset. Our goal is to make it easier for researchers and practitioners to identify and select the most relevant and useful datasets for their chatbot LLM training needs. Whether you're working on improving chatbot dialogue quality, response generation, or language understanding, this repository has something for you.
 
+
+If you want to contribute, you can contact: zhaol9555@gmail.com  Advised by Prof. Wanyun Cui(https://cuiwanyun.github.io/)
+
 ## Open Access Datasets
 #### Tags
 - IFT: Instruction Finetune
