@@ -1,17 +1,19 @@
-# LLMDataHub: Awesome Datasets for LLM Training
-## Introduction
+# 📔 LLMDataHub: Awesome Datasets for LLM Training 
+## Introduction 📄
 Large language models (LLMs), such as OpenAI's GPT series, Google's Bard, and Baidu's Wenxin Yiyan, are driving profound technological changes. Recently, with the emergence of open-source large model frameworks like LlaMa and ChatGLM, training an LLM is no longer the exclusive domain of resource-rich companies. Training LLMs by small organizations or individuals has become an important interest in the open-source community, with some notable works including Alpaca, Vicuna, and Luotuo. In addition to large model frameworks, large-scale and high-quality training corpora are also essential for training large language models. Currently, relevant open-source corpora in the community are still scattered. Therefore, the goal of this repository is to continuously collect high-quality training corpora for LLMs in the open-source community.
 
 
 
 Training a chatbot LLM that can follow human instruction effectively requires access to high-quality datasets that cover a range of conversation domains and styles. In this repository, we provide a curated collection of datasets specifically designed for chatbot training, including links, size, language, usage, and a brief description of each dataset. Our goal is to make it easier for researchers and practitioners to identify and select the most relevant and useful datasets for their chatbot LLM training needs. Whether you're working on improving chatbot dialogue quality, response generation, or language understanding, this repository has something for you.
 
-
+### Contact 📬 <br/> 
 If you want to contribute, you can contact: 
-- Junhao Zhao [email](zhaol9555@gmail.com). Advised by Prof. Wanyun Cui [GitHub Homepage](https://cuiwanyun.github.io/)
 
-## Open Access Datasets
-#### Type Tags
+  [Junhao Zhao](zhaol9555@gmail.com) 📧 <br/>
+  Advised by [Prof. Wanyun Cui](https://cuiwanyun.github.io/) [![](https://img.shields.io/badge/GitHub.io-@cuiwanyun-green.svg)](https://cuiwanyun.github.io/)
+
+## General Open Access Datasets 🟢:
+#### Type Tags 🏷️:
 - SFT: Supervised Finetune
   - Dialog: Each entry contains continuous conversations 
   - Pairs: Each entry is an input-output pair
@@ -20,7 +22,7 @@ If you want to contribute, you can contact:
 - CoT: Chain-of-Thought Finetune
 - RLHF: train reward model in Reinforcement Learning with Human Feedback 
 
-| Dataset name                                                                                                                                                                                                                                                                       | Used by                                                                        | Type                                 | Language                                             | Size                                                                                    | Description                                                                                                                                                                          |
+| Dataset name 📖 🔗                                                                                                                                                                                                                                                                       | Used by 🤖                                                                       | Type 🏷️                                | Language 🌐                                            | Size 📏                                                                                   | Description 🗒️                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------|------------------------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [ShareGPT_Vicuna_unfiltered](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered)                                                                                                                                                                            |                                                                                | Vicuna                               | Multilingual                                         | 53K entries                                                                             | Cleaned ShareGPT dataset.                                                                                                                                                            |
 | [pku-saferlhf-dataset](https://github.com/PKU-Alignment/safe-rlhf#pku-saferlhf-dataset)                                                                                                                                                                                            | Beaver                                                                         | RLHF                                 | English                                              | 10K + 1M                                                                                | The first dataset of its kind and contains 10k instances with safety preferences.                                                                                                    |
@@ -68,7 +70,7 @@ If you want to contribute, you can contact:
 | [Gutenberg project](https://www.gutenberg.org/policy/robot_access.html)                                                                                                                                                                                                            | LLaMA                                                                          | PT                                   | Multilingual                                         | /                                                                                       | A book dataset, mostly novels. Not be preprocessed.                                                                                                                                  |
 | [CLUECorpus](https://github.com/CLUEbenchmark/CLUE)                                                                                                                                                                                                                                | /                                                                              | PT, <br/> finetune, <br/> evaluation | Chinese                                              | 100GB                                                                                   | A Chinese pretraining Corpus sourced from *Common Crawl*.                                                                                                                            |
 
-### Potential Overlaps
+### Potential Overlaps ⚠️
 
 We consider row items as subject.
 
@@ -82,9 +84,9 @@ We consider row items as subject.
 | GPT-4-LLM         |         |          |         |                  | overlap           | /         | overlap    |
 | Alpaca-CoT        | overlap | overlap  | overlap | overlap          | overlap           | overlap   | /          |
 
-## Domain-specific Datasets
+## Domain-specific Datasets 🟢 💡
 
-| Dataset name                                                                                                    | Used by | Type             | Language              | Size          | Description                                                                                                                                                           |
+| Dataset name 📖                                                                                                    | Used by 🤖 | Type 🏷️             | Language 🌐             | Size 📏         | Description 🗒️                                                                                                                                                          |
 |-----------------------------------------------------------------------------------------------------------------|---------|------------------|-----------------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [awesome-chinese-legal-resources](https://github.com/pengxiao-song/awesome-chinese-legal-resources)             | LaWGPT  | /                | Chinese               | /             | A collection of Chinese legal data for LLM training.                                                                                                                  |
 | [Long Form](https://github.com/akoksal/LongForm)                                                                | /       | Pairs            | English               | 23.7K entries | A dataset aims at improving the long text generation ability of LLM.                                                                                                  |
@@ -94,8 +96,8 @@ We consider row items as subject.
 | [instructional_codesearchnet_python](https://huggingface.co/datasets/Nan-Do/instructional_codesearchnet_python) | /       | Pairs            | English &<br/> Python | 192MB         | This dataset is a template generated instructional Python datastet generated from an annotated version of the code-search-net dataset for the Open-Assistant project. |
 | [finance-alpaca](https://huggingface.co/datasets/gbharti/finance-alpaca)                                        | /       | Pairs            | English               | 1.3K entries  | An Alpaca-style dataset but focus on financial topics                                                                                                                 |
 
-## Private Datasets
-| Dataset name          | Used by            | Used for            | Language                              | Size        | Description                                                                                     |
+## Private Datasets 🔴
+| Dataset name 📖          | Used by 🤖           | Type 🏷️           | Language 🌐                             | Size 📏       | Description 🗒️                                                                                     |
 |-----------------------|--------------------|---------------------|---------------------------------------|-------------|-------------------------------------------------------------------------------------------------|
 | WebText(Reddit links) | GPT-2              | PT                  | English                               | /           | Data crawled from Reddit and filtered for GPT-2 pretraining.                                    |
 | MassiveText           | Gopher, Chinchilla | PT                  | 99% English, 1% other(including code) |             |                                                                                                 |
