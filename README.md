@@ -8,7 +8,7 @@ Training a chatbot LLM that can follow human instruction effectively requires ac
 
 
 If you want to contribute, you can contact: 
-- Junhao Zhao [email](zhaol9555@gmail.com). <br/>Advised by Prof. Wanyun Cui [GitHub io](https://cuiwanyun.github.io/)
+- Junhao Zhao [email](zhaol9555@gmail.com). Advised by Prof. Wanyun Cui [GitHub Homepage](https://cuiwanyun.github.io/)
 
 ## Open Access Datasets
 #### Type Tags
