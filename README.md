@@ -1,4 +1,12 @@
-# 📔 LLMDataHub: Awesome Datasets for LLM Training 
+# <div align="center">📔 LLMDataHub: Awesome Datasets for LLM Training </div>
+----------------------------------
+<p align="center">
+  🔥 <a href="#general_aligment" target="_blank">Alignment Datasets</a> • 💡 <a href="#domain-specific" target="_blank">Domain-specific Datasets</a> • :atom: <a href="#pretrain" target="_blank">Pretraining Datasets</a> <br> 
+</p>
+
+<p align="center">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Zjh-819/LLMDataHub"> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Zjh-819/LLMDataHub">
+ </p>
 
 ## Introduction 📄
 Large language models (LLMs), such as OpenAI's GPT series, Google's Bard, and Baidu's Wenxin Yiyan, are driving profound technological changes. Recently, with the emergence of open-source large model frameworks like LlaMa and ChatGLM, training an LLM is no longer the exclusive domain of resource-rich companies. Training LLMs by small organizations or individuals has become an important interest in the open-source community, with some notable works including Alpaca, Vicuna, and Luotuo. In addition to large model frameworks, large-scale and high-quality training corpora are also essential for training large language models. Currently, relevant open-source corpora in the community are still scattered. Therefore, the goal of this repository is to continuously collect high-quality training corpora for LLMs in the open-source community.
@@ -13,7 +21,7 @@ If you want to contribute, you can contact:
   [Junhao Zhao](zhaol9555@gmail.com) 📧 <br/>
   Advised by [Prof. Wanyun Cui](https://cuiwanyun.github.io/) [![](https://img.shields.io/badge/GitHub.io-@cuiwanyun-green.svg)](https://cuiwanyun.github.io/)
 
-## General Open Access Datasets for Alignment 🟢:
+## <div id="general_aligment">General Open Access Datasets for Alignment 🟢:</div>
 #### Type Tags 🏷️:
 - SFT: Supervised Finetune
   - Dialog: Each entry contains continuous conversations 
@@ -86,7 +94,7 @@ We consider row items as subject.
 | GPT-4-LLM         |         |          |         |                  | overlap           | /         | overlap    |
 | Alpaca-CoT        | overlap | overlap  | overlap | overlap          | overlap           | overlap   | /          |
 
-## Open Datasets for Pretraining 🟢 :atom:
+## <div id="pretrain">Open Datasets for Pretraining 🟢 :atom:</div>
 | Dataset name                                                                                                                                  | Used by                                                                        | Type                                 | Language                | Size        | Description ️                                                                                                                                     |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------|-------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | [falcon-refinedweb](https://huggingface.co/datasets/tiiuae/falcon-refinedweb)                                                                 | tiiuae/falcon series                                                           | PT                                   | English                 | /           | A refined subset of CommonCrawl.                                                                                                                  |
@@ -101,7 +109,7 @@ We consider row items as subject.
 | [CLUECorpus](https://github.com/CLUEbenchmark/CLUE)                                                                                           | /                                                                              | PT, <br/> finetune, <br/> evaluation | Chinese                 | 100GB       | A Chinese pretraining Corpus sourced from *Common Crawl*.                                                                                         |
 
 
-## Domain-specific Datasets 🟢 💡
+## <div id="domain-specific">Domain-specific Datasets 🟢 💡</div>
 
 | Dataset name                                                                                                    | Used by | Type             | Language              | Size            | Description ️                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------|---------|------------------|-----------------------|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
