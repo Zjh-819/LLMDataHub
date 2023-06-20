@@ -1,4 +1,8 @@
-# <div align="center">📔 LLMDataHub: Awesome Datasets for LLM Training </div>
+<p align="center" width="60%">
+<img src="LOGO.png"  width="40%" height="40%">
+</p>
+  
+# <div align="center">LLMDataHub: Awesome Datasets for LLM Training </div>
 ----------------------------------
 <p align="center">
   🔥 <a href="#general_aligment" target="_blank">Alignment Datasets</a> • 💡 <a href="#domain-specific" target="_blank">Domain-specific Datasets</a> • :atom: <a href="#pretrain" target="_blank">Pretraining Datasets</a> 🖼️ <a href="#multimodal" target="_blank">Multimodal Datasets</a> <br> 
