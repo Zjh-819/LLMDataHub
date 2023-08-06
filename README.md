@@ -35,6 +35,14 @@ If you want to contribute, you can contact:
 - CoT: Chain-of-Thought Finetune
 - RLHF: train reward model in Reinforcement Learning with Human Feedback 
 
+### Datasets released in August 2023
+| Dataset name                                                        | Used by | Type                | Language            | Size     | Description ️                                                                         |
+|---------------------------------------------------------------------|---------|---------------------|---------------------|----------|---------------------------------------------------------------------------------------|
+| [tiny series](https://huggingface.co/datasets/nampdn-ai/tiny-codes) | /       | Pairs               | English             | /        | A series of short and concise codes or texts aim at improving LM's reasoning ability. |
+| [LongBench](https://huggingface.co/datasets/THUDM/LongBench)        | /       | Evaluation<br/>Only | English<br/>Chinese | 17 tasks | A benchmark for evaluate LLM's long context understanding capability.                 |
+
+
+
 ### Datasets released in July 2023
 | Dataset name                                                                                                | Used by      | Type            | Language     | Size              | Description ️                                                                                                                                                                                         |
 |-------------------------------------------------------------------------------------------------------------|--------------|-----------------|--------------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
