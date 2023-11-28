@@ -35,6 +35,12 @@ If you want to contribute, you can contact:
 - CoT: Chain-of-Thought Finetune
 - RLHF: train reward model in Reinforcement Learning with Human Feedback 
 
+### Datasets released in September 2023
+| Dataset name                                                                                                     | Used by | Type       | Language | Size                    | Description ️                                                                                                                                                                                                                                                                                          |
+|------------------------------------------------------------------------------------------------------------------|---------|------------|----------|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Anthropic_<br/>HH_Golden](https://huggingface.co/datasets/Unified-Language-Model-Alignment/Anthropic_HH_Golden) | ULMA    | SFT / RLHF | English  | train 42.5k + test 2.3k | Improved on the harmless dataset of Anthropic's Helpful and Harmless (HH) datasets. Using GPT4 to rewrite the original "chosen" answer. Compared with the original Harmless dataset, empirically this dataset improves the performance of RLHF, DPO or ULMA methods significantly on harmless metrics. |
+
+
 ### Datasets released in August 2023
 | Dataset name                                                                                            | Used by                   | Type                | Language            | Size        | Description ️                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|---------------------------|---------------------|---------------------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
