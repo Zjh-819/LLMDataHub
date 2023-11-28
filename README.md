@@ -35,6 +35,14 @@ If you want to contribute, you can contact:
 - CoT: Chain-of-Thought Finetune
 - RLHF: train reward model in Reinforcement Learning with Human Feedback 
 
+
+### Datasets released in November 2023
+| Dataset name                                                         | Used by | Type | Language | Size          | Description ️                                                                                                          |
+|----------------------------------------------------------------------|---------|------|----------|---------------|------------------------------------------------------------------------------------------------------------------------|
+| [helpSteer](https://huggingface.co/datasets/nvidia/HelpSteer)        | /       | RLHF | English  | 37k instances | An RLHF dataset that is annotated by human with helpfulness, correctness, coherence, complexity and verbosity measures |
+| [no_robots](https://huggingface.co/datasets/HuggingFaceH4/no_robots) | /       | SFT  | English  | 10k instance  | High-quality human-created STF data, single turn.                                                                      |
+
+
 ### Datasets released in September 2023
 | Dataset name                                                                                                     | Used by | Type       | Language | Size                    | Description ️                                                                                                                                                                                                                                                                                          |
 |------------------------------------------------------------------------------------------------------------------|---------|------------|----------|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -195,6 +203,7 @@ We consider row items as subject.
 ## <div id="multimodal">Multimodal Datasets for VLM </div>
 | Dataset name                                                                        | Used by            | Type                 | Language     | Size           | Description ️                                                                                               |
 |-------------------------------------------------------------------------------------|--------------------|----------------------|--------------|----------------|-------------------------------------------------------------------------------------------------------------|
+| [ShareGPT4V](https://huggingface.co/datasets/Lin-Chen/ShareGPT4V)                   | /                  | image-prompt-caption | English      | 1.2M instances | A set of GPT4-Vision-powered multi-modal captions data.                                                     |
 | [OBELICS](https://huggingface.co/datasets/HuggingFaceM4/OBELICS)                    | idefics<br/>series | image-document       | English      | 141M documents | an open, massive, and curated collection of interleaved image-text web documents.                           |
 | [JourneyDB](https://huggingface.co/datasets/JourneyDB/JourneyDB)                    | /                  | image-prompt-caption | English      | 4M instances   | A large scale dataset comprises QA, caption, and text prompting tasks, which is based on Midjourney images. |
 | [M3IT](https://huggingface.co/datasets/MMInstruction/M3IT)                          | Ying-VLM           | instruction-image    | Multilingual | 2.4M instances | A dataset comprises 40 tasks with 400 human written instruction.                                            |
